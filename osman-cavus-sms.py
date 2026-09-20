@@ -307,8 +307,8 @@ with col_right:
                         
                         if response.status_code == 200:
                             res_data = response.json()
-                            if str(res_data.get("state")).lower() == "true" and res_streamlit
-requestsdata.get("code") == 200:
+if str(res_data.get("state")).lower() == "true":
+    requestsdata.get("code") == 200:
                                 success_list.append(single_no)
                             else:
                                 failed_list.append(single_no)
